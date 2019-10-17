@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
 
-  s.dependency 'AFNetworking', :git => 'https://github.com/R01NDev/AFNetworking.git', :branch => 'feature/WKWebView'
+  s.dependency 'AFNetworking', '~> 3.2.1'
 end
